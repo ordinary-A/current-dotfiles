@@ -468,7 +468,7 @@
 )
 
 (defpoll get_time :interval "1s"
-                  "date +%H:%M:%S"
+                  "date +'%I:%M:%S %p'"
 )
 
 (defpoll get_uptime :interval "1s"
