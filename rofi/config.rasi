@@ -1,0 +1,15 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    drun-display-format: "{name}";
+    drun-match-fields: "name,generic,exec,categories";
+    sort: true;
+    sorting-method: "fzf";
+    drun-url-launcher: "xdg-open";
+    display-drun: "  Apps";
+    display-run: "  Run";
+    icon-theme: "Papirus";
+    terminal: "kitty";
+}
+
+@theme "catppuccin-mocha"
